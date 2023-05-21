@@ -1,0 +1,28 @@
+﻿/*The part where social media icons are arranged*/
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+    .social-media-icons img {
+        width: 30px;
+        height: 30px;
+        margin: 0 20px;
+        box-shadow: 1px 1px 15px red;
+    }
+
+/*The part where E-Sports pictures are arranged*/
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+    .images img {
+        width: 300px;
+        height: 200px;
+        box-shadow: 1px 1px 15px red;
+    }
